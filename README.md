@@ -1,25 +1,33 @@
 # AAX – Agent Action eXchange
 
-**Versión fundacional – Julio 2025**
+**Versión fundacional – Julio 2025**  
+**Creador:** Kevin Mera Vera (lemarc7k)
 
 _AAX_ es un nuevo protocolo web diseñado específicamente para permitir que **agentes de inteligencia artificial autónomos**, debidamente autorizados por humanos, puedan ejecutar acciones reales en la web de forma **segura, trazable y estandarizada**.
 
+---
+
 ## 🌐 ¿Qué es AAX?
 
-AAX (Agent Action eXchange) es una infraestructura abierta que permite:
+**Agent Action eXchange (AAX)** es una infraestructura abierta que permite:
 
-- Ejecutar acciones como `book`, `pay`, `confirm`, `cancel` de forma declarativa y estructurada.
-- Establecer una conexión segura entre la voluntad del humano y la acción del agente.
-- Proteger la autonomía humana con trazabilidad, reversibilidad y control.
+- Ejecutar acciones como `book`, `pay`, `confirm`, `cancel` de forma **declarativa y estructurada**.
+- Establecer una **conexión segura entre la voluntad del humano y la acción del agente**.
+- Proteger la autonomía humana con **trazabilidad, reversibilidad y control verificable**.
+
+---
 
 ## 🔐 Filosofía
 
 AAX no empodera a las IAs por sí mismas.  
-**Empodera al ser humano mediante la delegación controlada**, con trazabilidad y autorización explícita.
+**Empodera al ser humano mediante la delegación controlada.**  
+Cada acción requiere una firma, una intención y un límite.
 
-> "La IA no decide por ti. Actúa contigo, bajo tu firma."
+> _“La IA no decide por ti. Actúa contigo, bajo tu firma.”_
 
-## 📄 Estructura de un archivo `.agent.json`
+---
+
+## 📄 Estructura del archivo `.agent.json`
 
 ```json
 {
@@ -40,15 +48,25 @@ AAX no empodera a las IAs por sí mismas.
 }
 ```
 
-## 💳 AgentPay
+💳 AgentPay – Pasarela de Pagos IA-first
+AAX incluye una propuesta complementaria:
+AgentPay, la primera pasarela de pagos diseñada para agentes IA autorizados.
 
-AAX incluye una propuesta de **pasarela de pago IA-first**, llamada **AgentPay**, con:
-- Tokenización de métodos de pago.
-- Límite y control de acciones IA.
-- Logs firmados y reversibles.
+Características:
 
-## 📚 Licencia
+Tokenización de métodos de pago
 
-Este protocolo está publicado bajo licencia MIT.  
-Kevin Mera Vera, 2025.
+Límites, logs y firma de transacciones
 
+Trazabilidad y reversibilidad garantizadas
+
+📁 Contenido del repositorio
+aax-protocol.md → Documento fundacional del protocolo
+
+agent.json → Ejemplo de definición estándar de agente
+
+/specs → Especificaciones ampliadas y diagramas (WIP)
+
+README.md → Este archivo
+
+LICENSE → Licencia MIT
