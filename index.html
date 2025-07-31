@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AAX Protocol</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap");
+
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Orbitron", sans-serif;
+        color: #00ffe1;
+        background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 100%);
+        overflow-x: hidden;
+      }
+
+      .background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: -1;
+        background: radial-gradient(#00ffe1 1px, transparent 1px);
+        background-size: 40px 40px;
+        animation: move 60s linear infinite;
+      }
+
+      @keyframes move {
+        0% {
+          background-position: 0 0;
+        }
+        100% {
+          background-position: 1000px 1000px;
+        }
+      }
+
+      header {
+        text-align: center;
+        padding: 4rem 1rem 2rem;
+      }
+
+      h1 {
+        font-size: 3rem;
+        margin: 0;
+        color: #00ffe1;
+      }
+
+      p.subtitle {
+        font-size: 1.2rem;
+        color: #b3fffc;
+      }
+
+      .content {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem;
+        background-color: rgba(0, 255, 225, 0.05);
+        border-radius: 12px;
+        box-shadow: 0 0 15px rgba(0, 255, 225, 0.2);
+      }
+
+      .buttons {
+        text-align: center;
+        margin-top: 2rem;
+      }
+
+      .buttons a {
+        display: inline-block;
+        margin: 0.5rem;
+        padding: 0.75rem 1.5rem;
+        border-radius: 8px;
+        background-color: #00ffe1;
+        color: #0f0f0f;
+        text-decoration: none;
+        font-weight: bold;
+        transition: transform 0.3s, background 0.3s;
+      }
+
+      .buttons a:hover {
+        transform: scale(1.05);
+        background-color: #00bfa5;
+      }
+
+      footer {
+        text-align: center;
+        padding: 2rem 1rem;
+        font-size: 0.9rem;
+        color: #666;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="background"></div>
+
+    <header>
+      <h1>AAX Protocol</h1>
+      <p class="subtitle">
+        Agent Action eXchange · Web for Humans and Autonomous Agents
+      </p>
+    </header>
+
+    <div class="content">
+      <p>
+        AAX is the first foundational open protocol to allow autonomous agents
+        (AIs) to act securely, declaratively and traceably on the web — always
+        under human control and verification.
+      </p>
+
+      <p>
+        This infrastructure introduces a standard file format (`agent.json`) and
+        a companion payment system (AgentPay) enabling safe transactions and
+        interactions between verified agents and digital environments.
+      </p>
+
+      <div class="buttons">
+        <a href="https://github.com/lemarc7k/aax-protocol" target="_blank"
+          >🔗 View GitHub Repo</a
+        >
+        <a href="agent.json" download>📄 Download agent.json</a>
+        <a href="specs/AAX_Protocol.md" download>📘 Download Full Protocol</a>
+        <a href="README.en.md" target="_blank">🌐 Read README (EN)</a>
+        <a href="README.md" target="_blank">🌐 Read README (ES)</a>
+      </div>
+    </div>
+
+    <footer>
+      © 2025 Kevin Mera Vera · Published Open Source under MIT License
+    </footer>
+  </body>
+</html>
