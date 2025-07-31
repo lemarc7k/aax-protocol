@@ -70,3 +70,11 @@ agent.json → Ejemplo de definición estándar de agente
 README.md → Este archivo
 
 LICENSE → Licencia MIT
+
+📖 Licencia
+Este protocolo está publicado bajo licencia MIT para favorecer su adopción, estudio, adaptación y expansión.
+
+🪶 Fundador
+Kevin Mera Vera
+Creador de AAX – lemarc7k
+Perth, Australia – 2025
