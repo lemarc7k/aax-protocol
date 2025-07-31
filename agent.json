@@ -1,0 +1,21 @@
+{
+  "actions": {
+    "book": {
+      "required_fields": ["user_name", "email", "date", "item_id"],
+      "requires_consent": true
+    },
+    "cancel": {
+      "required_fields": ["booking_id"],
+      "requires_consent": true
+    },
+    "pay": {
+      "required_fields": ["amount", "currency", "token"],
+      "requires_consent": true
+    }
+  },
+  "agent_requirements": {
+    "verified_agent_id": true,
+    "signature_required": true,
+    "execution_logging": true
+  }
+}
