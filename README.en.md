@@ -74,6 +74,7 @@ LICENSE → MIT License
 
 📖 License
 This protocol is released under the MIT License, promoting adoption, extension, and open innovation.
+🛡️ AAX Protocol is protected by public authorship proof — see PROOF-OF-AUTHORSHIP.docx and PROOF_AAX_Whitepaper.ots.
 
 🪶 Founder
 Kevin Mera Vera
